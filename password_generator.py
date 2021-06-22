@@ -42,6 +42,7 @@ lf_entry = tkinter.LabelFrame(tk, text="How Many Characters?")
 lf_entry.pack(pady=20)
 my_entry = tkinter.Entry(lf_entry, font=("Helvetica", 24))
 my_entry.pack(pady=20, padx=20)
+my_entry.focus()
 
 #Create label frame & entry box for returned password
 lf_pw = tkinter.LabelFrame(tk, text="Your Password:")
